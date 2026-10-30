@@ -1,0 +1,22 @@
+import { chromium } from '@playwright/test';
+import {stories} from '../src/stories.ts';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--use-gl=angle','--use-angle=swiftshader']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.route('**/*',r=>r.request().url().startsWith('http://localhost:5173')?r.continue():r.abort());
+const ready=()=>page.locator('#screenshot').waitFor({state:'visible'}).then(()=>page.waitForFunction(()=>!document.querySelector('#screenshot').disabled,{timeout:60000}));
+await page.goto('http://localhost:5173');await ready();
+if(await page.locator('aside button').count()!==11)throw Error('Unexpected controls');
+for(const story of stories){await page.locator(`[data-molecule="${story.id}"]`).click();await ready();console.log('Rendered',story.id);}
+await page.locator('[data-molecule="1AOI"]').click();await ready();
+await page.screenshot({path:'docs/desktop.png'});
+const download=page.waitForEvent('download');await page.locator('#screenshot').click();const image=await download;await image.saveAs('/tmp/molecular-export.png');await ready();console.log('Screenshot',image.suggestedFilename());
+await page.locator('#file').setInputFiles('public/structures/1BNA.cif');await ready();await page.waitForFunction(()=>document.querySelectorAll('[data-molecule]').length===10);await ready();
+if(await page.locator('[aria-pressed="true"]').textContent()!=='1BNA.cif')throw Error('Import not selected');
+await page.reload();await ready();if(await page.locator('[data-molecule]').count()!==10)throw Error('Import lost on reload');
+await page.getByRole('button',{name:'1BNA.cif',exact:true}).click();await ready();
+await page.locator('#file').setInputFiles({name:'invalid.cif',mimeType:'text/plain',buffer:Buffer.from('not a molecule')});
+await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('invalid.cif'));if(await page.locator('[data-molecule]').count()!==10)throw Error('Invalid import retained');
+await page.locator('[data-molecule="4HHB"]').click();await ready();
+await page.setViewportSize({width:390,height:844});await page.waitForTimeout(500);await page.screenshot({path:'docs/mobile.png'});
+const bounds=await page.locator('canvas').boundingBox();if(bounds.width!==390||bounds.height!==844)throw Error('Canvas not full screen');
+if(errors.length)throw Error(errors.join('\n'));console.log('Import, persistence, invalid import recovery, screenshot and mobile passed');await browser.close();

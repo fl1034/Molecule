@@ -1,0 +1,319 @@
+[
+  {
+    "pdbId": "4HHB",
+    "title": "THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION' ",
+    "source": "https://files.rcsb.org/download/4HHB.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "2d3ca1bf21ddff35af2e2bc5d331720f7bfc46a16c4829ea3ec1b41062d5f5a6",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "atomCount": 4779,
+    "citation": "https://doi.org/10.2210/pdb4hhb/pdb"
+  },
+  {
+    "pdbId": "1BNA",
+    "title": "STRUCTURE OF A B-DNA DODECAMER. CONFORMATION AND DYNAMICS' ",
+    "source": "https://files.rcsb.org/download/1BNA.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "76d550f32963de46f4f3c63caacb530f91a24f333fbc4312766d240b14e8cf30",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "atomCount": 566,
+    "citation": "https://doi.org/10.2210/pdb1bna/pdb"
+  },
+  {
+    "pdbId": "1AOI",
+    "title": "COMPLEX BETWEEN NUCLEOSOME CORE PARTICLE (H3,H4,H2A,H2B) AND 146 BP LONG DNA FRAGMENT' ",
+    "source": "https://files.rcsb.org/download/1AOI.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "24a18ac6c02cb4ac1bb455b59360b6d514a39dbc1e9f01b4be9a54533d0ea10d",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "atomCount": 12385,
+    "citation": "https://doi.org/10.2210/pdb1aoi/pdb"
+  },
+  {
+    "pdbId": "1EMA",
+    "title": "GREEN FLUORESCENT PROTEIN FROM AEQUOREA VICTORIA",
+    "source": "https://files.rcsb.org/download/1EMA.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "b7d583424b6f960a7421fd4c88cdb6bbb10025667cd863d8cd14f70bc775aceb",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1ema/pdb",
+    "primaryCitation": {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Science",
+      "journal_id_ASTM": "SCIEAS",
+      "journal_id_CSD": "0038",
+      "journal_id_ISSN": "0036-8075",
+      "journal_volume": "273",
+      "page_first": "1392",
+      "page_last": "1395",
+      "pdbx_database_id_PubMed": 8703075,
+      "rcsb_ORCID_identifiers": [
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+      ],
+      "rcsb_authors": [
+        "Ormo, M.",
+        "Cubitt, A.B.",
+        "Kallio, K.",
+        "Gross, L.A.",
+        "Tsien, R.Y.",
+        "Remington, S.J."
+      ],
+      "rcsb_journal_abbrev": "Science",
+      "title": "Crystal structure of the Aequorea victoria green fluorescent protein.",
+      "year": 1996
+    },
+    "resolution": [
+      1.9
+    ],
+    "method": [
+      {
+        "crystals_number": 1,
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  },
+  {
+    "pdbId": "1LYZ",
+    "title": "Real-space refinement of the structure of hen egg-white lysozyme",
+    "source": "https://files.rcsb.org/download/1LYZ.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "7d4eeceaeee0adf6946dd07903907066c3923e103797caee2d40318a1af3cad6",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1lyz/pdb",
+    "primaryCitation": {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_ASTM": "JMOBAK",
+      "journal_id_CSD": "0070",
+      "journal_id_ISSN": "0022-2836",
+      "journal_volume": "82",
+      "page_first": "371",
+      "page_last": "391",
+      "pdbx_database_id_DOI": "10.1016/0022-2836(74)90598-1",
+      "pdbx_database_id_PubMed": 4856347,
+      "rcsb_authors": [
+        "Diamond, R."
+      ],
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Real-space refinement of the structure of hen egg-white lysozyme.",
+      "year": 1974
+    },
+    "resolution": [
+      2.0
+    ],
+    "method": [
+      {
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  },
+  {
+    "pdbId": "1EHZ",
+    "title": "The crystal structure of yeast phenylalanine tRNA at 1.93 A resolution",
+    "source": "https://files.rcsb.org/download/1EHZ.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "3021dd2b6461f850bb66d6748d3c22a5e1bb6cc891c625c15d793f38215b28ab",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1ehz/pdb",
+    "primaryCitation": {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "RNA",
+      "journal_id_ASTM": "RNARFU",
+      "journal_id_CSD": "2122",
+      "journal_id_ISSN": "1355-8382",
+      "journal_volume": "6",
+      "page_first": "1091",
+      "page_last": "1105",
+      "pdbx_database_id_DOI": "10.1017/S1355838200000364",
+      "pdbx_database_id_PubMed": 10943889,
+      "rcsb_ORCID_identifiers": [
+        "?",
+        "?"
+      ],
+      "rcsb_authors": [
+        "Shi, H.",
+        "Moore, P.B."
+      ],
+      "rcsb_journal_abbrev": "RNA",
+      "title": "The crystal structure of yeast phenylalanine tRNA at 1.93 A resolution: a classic structure revisited",
+      "year": 2000
+    },
+    "resolution": [
+      1.93
+    ],
+    "method": [
+      {
+        "crystals_number": 1,
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  },
+  {
+    "pdbId": "1MBN",
+    "title": "The stereochemistry of the protein myoglobin",
+    "source": "https://files.rcsb.org/download/1MBN.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "91c8a5754c748c7cc1c1508ee92bc1df4c332be2383c8ae93fd084292ec8722e",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1mbn/pdb",
+    "primaryCitation": {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Prog.Stereochem.",
+      "journal_id_ASTM": "PRSTAP",
+      "journal_id_CSD": "0419",
+      "journal_id_ISSN": "0079-6808",
+      "journal_volume": "4",
+      "page_first": "299",
+      "pdbx_database_id_PubMed": -1,
+      "rcsb_authors": [
+        "Watson, H.C."
+      ],
+      "rcsb_journal_abbrev": "Prog Stereochem",
+      "title": "The Stereochemistry of the Protein Myoglobin",
+      "year": 1969
+    },
+    "resolution": [
+      2.0
+    ],
+    "method": [
+      {
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  },
+  {
+    "pdbId": "1F88",
+    "title": "CRYSTAL STRUCTURE OF BOVINE RHODOPSIN",
+    "source": "https://files.rcsb.org/download/1F88.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "6bc49951984686f3ac98a0d98873b08dd545379ae305ddc973c86667f123a410",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1f88/pdb",
+    "primaryCitation": {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Science",
+      "journal_id_ASTM": "SCIEAS",
+      "journal_id_CSD": "0038",
+      "journal_id_ISSN": "0036-8075",
+      "journal_volume": "289",
+      "page_first": "739",
+      "page_last": "745",
+      "pdbx_database_id_DOI": "10.1126/science.289.5480.739",
+      "pdbx_database_id_PubMed": 10926528,
+      "rcsb_ORCID_identifiers": [
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+      ],
+      "rcsb_authors": [
+        "Palczewski, K.",
+        "Kumasaka, T.",
+        "Hori, T.",
+        "Behnke, C.A.",
+        "Motoshima, H.",
+        "Fox, B.A.",
+        "Le Trong, I.",
+        "Teller, D.C.",
+        "Okada, T.",
+        "Stenkamp, R.E.",
+        "Yamamoto, M.",
+        "Miyano, M."
+      ],
+      "rcsb_journal_abbrev": "Science",
+      "title": "Crystal structure of rhodopsin: A G protein-coupled receptor.",
+      "year": 2000
+    },
+    "resolution": [
+      2.8
+    ],
+    "method": [
+      {
+        "crystals_number": 1,
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  },
+  {
+    "pdbId": "1BMF",
+    "title": "BOVINE MITOCHONDRIAL F1-ATPASE",
+    "source": "https://files.rcsb.org/download/1BMF.cif",
+    "downloadDate": "2026-10-30",
+    "sha256": "316c508daf7226b9606124d3b2c55c24b539e066ad50464d80466d2219f1053a",
+    "modelIndex": 0,
+    "assembly": "Deposited coordinates; no generated symmetry copies",
+    "identifierNamespace": "auth_asym_id / auth_seq_id; label_comp_id; model 1",
+    "citation": "https://doi.org/10.2210/pdb1bmf/pdb",
+    "primaryCitation": {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nature",
+      "journal_id_ASTM": "NATUAS",
+      "journal_id_CSD": "0006",
+      "journal_id_ISSN": "0028-0836",
+      "journal_volume": "370",
+      "page_first": "621",
+      "page_last": "628",
+      "pdbx_database_id_DOI": "10.1038/370621a0",
+      "pdbx_database_id_PubMed": 8065448,
+      "rcsb_ORCID_identifiers": [
+        "?",
+        "?",
+        "?",
+        "?"
+      ],
+      "rcsb_authors": [
+        "Abrahams, J.P.",
+        "Leslie, A.G.",
+        "Lutter, R.",
+        "Walker, J.E."
+      ],
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Structure at 2.8 A resolution of F1-ATPase from bovine heart mitochondria.",
+      "year": 1994
+    },
+    "resolution": [
+      2.85
+    ],
+    "method": [
+      {
+        "crystals_number": 17,
+        "method": "X-RAY DIFFRACTION"
+      }
+    ]
+  }
+]
